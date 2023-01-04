@@ -1,0 +1,38 @@
+.work{
+display: flex;
+}
+.work__title{
+color:$title-text-color;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+margin-bottom: 50px;
+}
+.work__list{
+display: flex;
+list-style: none;
+}
+.work__item{
+position: relative;
+display: flex;
+width: 370px;
+&+&{
+   margin-left: 30px; 
+}
+}
+.item__title{
+     font-size: 14px;
+    width: 100%;
+    line-height: 1.1;
+    color: $white-bg-color;
+    text-align: center;
+    align-items: center;
+    background-color:rgba(47, 48, 58, 0.8);
+    padding-bottom: 27px;
+    padding-top: 27px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+}

@@ -1,0 +1,131 @@
+.footer{
+color: $white-bg-color;
+background-color: $footer-bg-color;
+padding-top: 60px;
+padding-bottom: 60px;
+&:not(:last-child){
+    margin-right: 10px;
+}
+}
+.footer__container{
+    display: flex;
+    align-items: baseline;
+}
+.footer__logo{
+font-family: Raleway, sans-serif;
+text-decoration: none;
+color:$white-bg-color;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+}
+.adres{}
+.adres__list{
+padding: 0%;
+margin-top: 20px;
+}
+.adres__item{
+margin-bottom: 9px;
+list-style: none;
+}
+.adres__link{
+text-decoration: none;
+color: $white-bg-color;
+line-height: 1.71;
+font-style: normal;
+}
+.adres__contact{
+text-decoration: none;
+color: $primary-text-color;
+font-style: normal;
+line-height: 1.71;
+}
+.footer__soc{
+margin-left: 70px;
+}
+.footer__soc-title{
+margin-bottom: 20px;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: $white-bg-color;
+}
+.footer__soc-list{
+justify-content: center;
+align-items: center;
+list-style: none;
+}
+.footer__soc-item{
+display: inline-block;
+width: 44px;
+height: 44px;  
+&:not(:last-child){
+    margin-right: 10px;
+} 
+}
+.feedback{
+    margin-left: auto;
+}
+.feedback__title{
+display: flex;
+margin-bottom: 20px;
+}
+.feedback__form{
+display: flex;
+}
+.feedback__form-submit{
+display: flex;
+justify-content: center;
+align-items: center;
+min-width: 200px;
+min-height: 50px;
+border: 1px solid transparent;
+border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+background-color: $accent-color;
+color: $white-bg-color;
+font-weight: 700;
+letter-spacing: 0.06em;
+font-size: 16px;
+line-height: 1.8;
+margin-left: 12px;
+}
+.footer__pic{
+    color: $accent-color;
+}
+.footer__soc-link{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: $icon-bg-color;
+color:$white-bg-color;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+&:hover{
+    background-color: $icon-hover-color;
+    color: $white-bg-color;
+}
+}
+.footer__soc-icon{
+fill: currentColor;   
+}
+.feedback__form-input{
+width: 358px;
+height: 50px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+background-color: $footer-bg-color;
+color: $white-bg-color;
+}
+.send{
+fill: currentColor;
+margin-left: 10px;
+color: $white-bg-color;
+}
