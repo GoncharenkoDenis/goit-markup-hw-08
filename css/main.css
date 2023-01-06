@@ -713,6 +713,11 @@ header {
   border: 1px solid #2196F3;
   border-radius: 4px;
 }
+@media screen and (max-width: 480px) {
+  .clients__item {
+    width: calc((100% - 60px) / 2);
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .clients__item {
     width: 226px;
@@ -1454,11 +1459,11 @@ header {
   margin-left: auto;
 }
 
-.mob-menu__button .icon-cros {
+.mob-menu__button .icon-cross {
   display: none;
 }
 
-.mob-menu__button.is-open .icon-cros {
+.mob-menu__button.is-open .icon-cross {
   display: block;
 }
 
