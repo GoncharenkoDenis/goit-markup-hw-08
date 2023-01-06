@@ -17,19 +17,28 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    @media screen and (max-width:1199px) {
+        max-width: 100%;
+        padding-top: 118px;
+        padding-bottom: 118px;
+    }
 }
 .hero__title{
-    width: 696px;
+    width: 100%;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
+    font-size: 26px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: $white-bg-color;
+@media screen and (min-width:1200px) {
+    font-size: 44px;
+    line-height: 1.4;
+}
 }
 .hero__button{
     display: inline-block;

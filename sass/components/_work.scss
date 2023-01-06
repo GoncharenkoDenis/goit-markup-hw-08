@@ -1,5 +1,8 @@
 .work{
 display: flex;
+@media screen and (max-width: 1199px){
+   display: none;
+}
 }
 .work__title{
 color:$title-text-color;
