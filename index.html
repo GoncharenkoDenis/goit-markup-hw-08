@@ -34,7 +34,15 @@
                 +380961111111</a>
         </li>
     </ul>
-
+ <button type="button" class="mob-menu__button is-open">
+            <svg width="40" 
+            height="40" 
+            aria-label="Перемикач мобільного меню"
+            aria-expanded="false">
+                <use class="icon-menu" href="./images/icons.svg#icon-menu-open" ></use>
+                <use class="icon-cross" href="./images/icons.svg#icon-menu-close"></use>
+            </svg>
+        </button>
 </div>
     </header>
 <main>
@@ -83,7 +91,8 @@
 <li class="principle__item">
     <div class="feature">
         <a href="" class="feature__link"></a>
-        <svg width="70" height="70" class="feature__icon">
+        <svg 
+        width="70" height="70" class="feature__icon">
             <use href="./images/icons.svg#icon-astronaut"></use>
         </svg>
     </div>
@@ -251,7 +260,7 @@
         </form>
     </div>
 </div>
-
+<script defer src="js/mob-menu.js"></script>
 <script src="./js/modal.js"></script>
 </body>
 </html>

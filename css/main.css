@@ -279,92 +279,6 @@ header {
   fill: currentColor;
 }
 
-.menu-open {
-  margin-left: auto;
-}
-
-.mobile-menu {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background-color: #FFFFFF;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  padding: 10px 0;
-}
-
-.menu-close {
-  display: block;
-  margin-left: auto;
-  margin-right: 0;
-}
-
-.mob-navigation__link {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: #212121;
-  text-decoration: none;
-}
-
-.mob-navigation--current {
-  color: #2196F3;
-}
-
-.mob-navigation__item {
-  list-style: none;
-}
-.mob-navigation__item:not(:last-child) {
-  margin-bottom: 32px;
-}
-
-.mob-contact__item {
-  list-style: none;
-}
-
-.mob-contact__link {
-  text-decoration: none;
-}
-
-.mobile__soc-item {
-  list-style: none;
-}
-
-.mob-soc-link {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2196F3;
-  text-decoration: none;
-}
-
-.mob-menu__wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.menu-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .hero {
   text-align: center;
   background: #2F303A;
@@ -1519,4 +1433,24 @@ header {
 .features__img {
   overflow: hidden;
   position: relative;
+}
+
+.mob-menu__button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+}
+.mob-menu__button .icon-cross {
+  display: none;
+}
+.mob-menu__button.is-open .icon-cross {
+  display: block;
+}
+.mob-menu__button.is-open .icon-menu {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
