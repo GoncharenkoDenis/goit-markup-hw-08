@@ -13,6 +13,28 @@
     $bg-modal-color:rgba(0, 0, 0, 0.2);
     $field-outline:rgba(33, 33, 33, 0.2);
     $PageHeaderBorderBottom:#ECECEC;
+
+    .container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    @media  screen and (min-width:480px) {
+    width: 480px;
+    content: 480px;
+}
+
+ @media  screen and (min-width:768px) {
+    width: 768px;
+}
+
+ @media  screen and (min-width:1200px) {
+    width: 1200px;
+}
+}
 ul{
     padding: 0;
     margin-left: auto;
@@ -33,7 +55,7 @@ p{
 }
 img{
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 html{
