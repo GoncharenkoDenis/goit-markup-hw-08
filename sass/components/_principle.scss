@@ -68,6 +68,9 @@ align-items: center;
     font-weight: 700;
     font-size: 14px;
     margin-bottom: 10px;
+    @media screen and(max-width:1199px) {
+        text-align: center;
+    }
 }
 .text{
     color: $primary-text-color;

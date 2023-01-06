@@ -38,11 +38,18 @@
             <svg width="40" 
             height="40" 
             aria-label="Перемикач мобільного меню"
-            aria-expanded="false">
+            aria-controls="menu-container"
+            aria-expanded="false"
+            data-menu-button
+            >
                 <use class="icon-menu" href="./images/icons.svg#icon-menu-open" ></use>
-                <use class="icon-cross" href="./images/icons.svg#icon-menu-close"></use>
+                <use class="icon-cros" href="./images/icons.svg#icon-menu-close"></use>
             </svg>
         </button>
+
+        <div class="menu-container is-open" id="menu-container" data-menu>
+            Контент
+        </div>
 </div>
     </header>
 <main>
