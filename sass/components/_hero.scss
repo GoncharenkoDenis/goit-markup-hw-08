@@ -23,7 +23,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
         ),
-    url(../imgages/img2x);
+    url(../images/Img2xheader1200.jpg);
     }
     @media screen and (max-width:1199px) {
         max-width: 100%;
@@ -35,6 +35,14 @@
         rgba(47, 48, 58, 0.4)
         ),
         url(../images/Header_tablet.jpg);
+        @include retina{
+        background-image:linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+        ),
+    url(../images/Header\ img2x768.jpg);
+    }
     }
 
     @media screen and (max-width:767px) {
@@ -44,6 +52,14 @@
         rgba(47, 48, 58, 0.4)
         ),
         url(../images/Header_mobile.jpg);
+        @include retina{
+        background-image:linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+        ),
+    url(../images/Header\ img2x768.jpg);
+    }
     }
 }
 .hero__title{
