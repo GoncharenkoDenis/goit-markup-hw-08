@@ -21,6 +21,21 @@
         max-width: 100%;
         padding-top: 118px;
         padding-bottom: 118px;
+        background-image:linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/Header_tablet.jpg);
+    }
+
+    @media screen and (max-width:767px) {
+        background-image:linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/Header_mobile.jpg);
     }
 }
 .hero__title{

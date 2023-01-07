@@ -304,6 +304,14 @@ header {
     max-width: 100%;
     padding-top: 118px;
     padding-bottom: 118px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Header_tablet.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header_tablet.jpg);
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Header_mobile.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header_mobile.jpg);
   }
 }
 
@@ -702,7 +710,6 @@ header {
   .clients__list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 30px;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
@@ -1458,6 +1465,10 @@ header {
 .features__img {
   overflow: hidden;
   position: relative;
+}
+
+.features-hidden {
+  display: none;
 }
 
 .mob-menu__button {

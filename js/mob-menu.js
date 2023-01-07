@@ -4,7 +4,7 @@ const pageHeader = document.querySelector(".page-header");
 const navHeader = document.querySelector(".page-header nav");
 const container = document.querySelector(".container");
 const page = document.querySelector(".page");
-const features__img = document.querySelector(".features__img");
+
 const mobSiteNavLinks = document.querySelectorAll(".mob-site-nav__link");
 
 
@@ -21,8 +21,9 @@ menuBtnRef.addEventListener("click", () => {
 });
 
   navHeader.classList.toggle("hidden");
-  if (window.location.href == "./portfolio.html") {
-    features__img.classList.toggle("hidden");
+  if (window.location.href.split("/")[3] == "portfolio.html") {
+    const features = document.querySelector(".features");
+    features.classList.toggle("features-hidden");
   }
   menuBtnRef.classList.toggle("is-open");
   pageHeader.classList.toggle(".remove-bottom-padding");
