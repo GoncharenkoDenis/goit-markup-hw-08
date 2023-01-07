@@ -299,7 +299,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media screen and (max-width: 1199px) {
+@inc @media screen and (max-width:1199px) {
   .hero {
     max-width: 100%;
     padding-top: 118px;

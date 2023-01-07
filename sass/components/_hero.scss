@@ -17,6 +17,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    @include retina{
+        background-image:linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+        ),
+    url(../imgages/img2x);
+    }
     @media screen and (max-width:1199px) {
         max-width: 100%;
         padding-top: 118px;
