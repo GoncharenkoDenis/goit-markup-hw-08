@@ -17,7 +17,6 @@ margin-bottom: 50px;
      display: flex;
     list-style: none;
 
-
  @media screen and (max-width: 767px){
 width: 100%;
 justify-content: center;
@@ -30,6 +29,7 @@ align-items: center;
 
  @media screen and (min-width: 768px) and (max-width: 1199px){
     justify-content: space-between;
+    gap: 20px;
  }
 }
 .principle__item{
@@ -75,7 +75,6 @@ align-items: center;
 .text{
     color: $primary-text-color;
 line-height: 1.71;
-margin-bottom: 16px;
 
 @media screen and (min-width: 480px){
       max-width: 100%;
