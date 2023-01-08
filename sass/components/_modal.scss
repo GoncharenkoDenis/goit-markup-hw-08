@@ -20,18 +20,12 @@ padding: 93px 15px;
     pointer-events: none;
 }
 .modal{
-
+position: relative;
     max-width: 528px;
     padding: 40px;
     margin: 0 auto;
 
 background-color: $white-bg-color;
-
-
-// @media screen and (max-width:767px) {
-//     width: 450px;
-//     height: 600px;
-// }
 }
 .modal__close{
 display: flex;
